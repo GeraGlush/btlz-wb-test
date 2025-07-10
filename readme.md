@@ -3,7 +3,10 @@
 * Склонируйте репозиторий:
 git clone <URL_репозитория>
 cd <папка_проекта>
-Создайте файл .env на основе шаблона .env.example и заполните нужные переменные. Пример уже настроеного env отправлю на hh
+
+* Добавьте .env в корень репозитория и credentials.json в src/config/google/ 
+
+* Запустите docker на пк
 
 * Запустите миграции базы данных:
 docker compose run --rm app npx knex migrate:latest --knexfile knexfile.cjs
